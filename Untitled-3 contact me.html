@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CONTACT ME</title>
+        <style>
+            body{
+                background-color: burlywood;
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                justify-content: center;align-items: center;
+                min-height: 100px;
+            }
+            .contact-box {
+                background: white;
+                padding: 70px;
+                border-radius: 12px;
+                box-shadow: 0 4px 10px rgba(red, green, blue, alpha);
+                width: 350px;
+            }
+            h2{
+                text-align: center;
+                color: blue;
+            }
+            input, textarea {
+                width: 100%;
+                padding: 10px;
+                margin: 8px;
+                border: 1px solid wheat;
+                border-radius: 8px;
+            }
+            button {
+                width: 100px;
+                padding: 12px;
+                background: rgb(54, 18, 139);
+                color: rgb(211, 16, 16);
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+                font-size: 10px;
+                align-items: center;
+            }
+            button:hover {
+                background:chocolate;
+            }
+            footer {
+                text-align: center;
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="contact-box">
+            <h2>CONTACT ME</h2>
+            <form>
+                <label for="name">your name</label>
+                <input type="text" id="name" name="name" placeholder="enter your name" required>
+                <label for="email">your email</label>
+                <input type="email" id="email" name="email" placeholder="enter your email" required>
+                <label for="message"> message</label>
+                <textarea id="message" name="message" rows="5" placeholder="write your message" required></textarea>
+                <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+        <footer>
+            <a href="LILY CRUSE FASHION HUBS.html">HOME</a>
+        </footer>
+    </body>
+</html>
